@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int age;
+cout<<"Enter the age of :\n";
+cin>> age;
+int a=18-age;
+if(age>=18)
+{
+cout<<"You can vote:\n";
+}
+else
+{
+cout<<"you can vote only if you are 18 or above";
+}
+return 0;
+}
+
